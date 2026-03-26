@@ -31,6 +31,14 @@
             color: white;
         }
 
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
+        }
+
         td.num {
             text-align: right;
         }
@@ -55,7 +63,7 @@
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col"
-                style="width: 60px;">Populacão</th>
+                style="width: 100px;">Populacão</th>
             </tr>
         </thead>
         <tbody>
